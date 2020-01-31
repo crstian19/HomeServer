@@ -1,0 +1,108 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/icons for icons options
+
+title: "Homelab Services"
+subtitle: "Crstian's"
+logo: "assets//tools/nixos.png"
+# icon: "fas fa-skull-crossbones" Optional icon
+
+# Optional message
+#
+message:
+  # url: https://....
+  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
+  title: "Hi !"
+  content: "These are my home server services, running under NixOS. Find more about me on crstian.me"
+
+# Optional navbar
+links:
+  - name: "Personal Page"
+    icon: "fas fa-user"
+    url: "https://crstian.me"
+    target: '_blank'
+  - name: "Github"
+    icon: "fab fa-github"
+    url: "https://github.com/Crstian19"
+    target: '_blank' # optionnal html a tag target attribute
+  - name: "Gitlab"
+    icon: "fab fa-gitlab"
+    target: '_blank'
+    url: "https://gitlab.com/Crstian"
+  - name: "Shell"
+    icon: "fas fa-terminal"
+    target: '_blank'
+    url: "https://shell.crstian.me"
+
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+services:
+  - name: "File Sharing"
+    icon: "fas fa-share-alt"
+    items:
+      - name: "qBittorrent"
+        logo: "assets/tools/qBittorrent.png"
+        subtitle: "Open Source P2P Bittorrent client"
+        tag: "P2P"
+        tagstyle: "is-success"
+        url: "https://torrent.crstian.me/"
+        target: '_blank' # optionnal html a tag target attribute
+      - name: "Caddy"
+        logo: "assets/tools/caddy.svg"
+        subtitle: "Open source web server"
+        tag: "WebServer"
+        target: '_blank'
+        # Optional tagstyle
+        # Same styling options as the optional message.
+        tagstyle: "is-success"
+        url: "https://files.crstian.me"
+      - name: "Pyload"
+        logo: "assets/tools/pyload.png"
+        subtitle: "Open Source download manager"
+        tag: "Python"
+        tagstyle: "is-success"
+        url: "https://pyload.crstian.me"
+        target: '_blank'
+  - name: "Monitoring"
+    icon: "fas fa-heartbeat"
+    items:
+      - name: "Traefik"
+        logo: "assets/tools/traefik.png"
+        subtitle: "HTTP reverse proxy and load balancer"
+        tag: "Proxy"
+        url: "https://traefik.crstian.me"
+      - name: "Ouroboros"
+        logo: "assets/tools/ouroboros.png"
+        subtitle: "Automatically update Docker containers"
+        tag: "Update"
+        tagstyle: "is-success"
+    #  - name: "Grafana"
+    #    logo: "assets/tools/grafana.png"
+    #    subtitle: "Metric analytics & dashboards"
+    #    url: "https://grafana.com/"
+    #  - name: "Kibana"
+    #    logo: "assets/tools/elastic.png"
+    #    subtitle: "Explore & visualize logs"
+    #    tag: "elk"
+    #    url: "https://www.elastic.co/products/kibana"
+    #  - name: "Website monitoring"
+    #    logo: "assets/tools/pingdom.png"
+    #    subtitle: "Pingdom public reports overview"
+    #    tag: "CI"
+    #    url: "https://www.pingdom.com/"
+  - name: "Information"
+    icon: "fas fa-rocket"
+    items:
+      - name: "FreshRSS"
+        logo: "assets/tools/freshrss.png"
+        subtitle: "Self-hosted RSS feed aggregator"
+        tag: "RSS"
+        tagstyle: "is-success"
+        url: "https://rss.crstian.me"
+      - name: "TS3"
+        logo: "assets/tools/ts3.png"
+        subtitle: "ts.crstian.me"
+        tag: "TS3"
+        tagstyle: "is-success"
+        url: "ts3server://ts.crstian.me"
