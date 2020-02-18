@@ -52,7 +52,7 @@ $theme-dark: (
       color: map-get($theme, "a-hover");
     }
   }
-  
+
   .title {
     color: map-get($theme, "text-title");
   }
@@ -74,8 +74,8 @@ $theme-dark: (
   }
 }
 
-html { 
-  height: 100%; 
+html {
+  height: 100%;
 }
 
 body {
@@ -138,6 +138,7 @@ body {
 
     .dashboard-title {
       padding: 6px 0 0 80px;
+
     }
 
     .first-line {
@@ -199,6 +200,12 @@ body {
 
     .title {
       font-size: 1.1em;
+      animation: rainbow 1s linear infinite;
+    }
+
+    .title:hover {
+      font-size: 1.1em;
+      animation: rainbow 1s linear infinite;
     }
 
     .subtitle {
@@ -240,7 +247,7 @@ body {
     overflow: hidden;
     transition: all 0.2s ease-out;
     padding: 0;
-    
+
     .tag-text {
       display: none;
     }
@@ -264,7 +271,7 @@ body {
       width: auto;
       color: #ffffff;
       padding: 0 0.75em;
-      
+
       .tag-text {
         display: block;
       }
@@ -360,5 +367,33 @@ body {
         color: #3273dc;
       }
   }
+
+  /* Rainbow Texts*/
+.rainbow-text{
+animation: rainbow 1s linear infinite;
+
+}
+.logo:hover{
+animation: rainbow 1s linear infinite;
+}
+.footer-logo:hover{
+animation: rainbow 1s linear infinite;
+}
+
+/* Rainbows */
+@keyframes rainbow {
+0% {color: hsla(0, 70%, 50%, 1);}
+10% {color: hsla(30, 70%, 50%, 1);}
+20% {color: hsla(60, 70%, 50%, 1);}
+30% {color: hsla(90, 70%, 50%, 1);}
+40% {color: hsla(120, 70%, 50%, 1);}
+50% {color: hsla(150, 70%, 50%, 1);}
+60% {color: hsla(180, 70%, 50%, 1);}
+70% {color: hsla(210, 70%, 50%, 1);}
+80% {color: hsla(240, 70%, 50%, 1);}
+90% {color: hsla(270, 70%, 50%, 1);}
+100% {color: hsla(0, 70%, 50%, 1);}
+
+}
 
 }
