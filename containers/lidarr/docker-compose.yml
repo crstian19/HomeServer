@@ -1,0 +1,25 @@
+version: '3'
+services:
+  lidarr:
+    container_name: lidarr
+    image: linuxserver/lidarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Madrid
+      - UMASK_SET=022
+    volumes:
+      - './config:/config'
+      - '/storage/music:/music'
+      - '/storage/music:/downloads'
+#    ports:
+#      - '8686:8686'
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.lidarr.entryPoints=web-secure
+      - traefik.http.routers.lidarr.rule=Host(`YOUR URL`)
+      - traefik.http.routers.lidarr.tls.certresolver=default
+      - traefik.http.services.lidarr.loadbalancer.server.port=8686
+#    restart: unless-stopped
+  #  command: linuxserver/lidarr
+

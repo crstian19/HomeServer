@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  netdata:
+    image: netdata/netdata
+    hostname: netdata.crstian.me
+    network_mode: host
+    cap_add:
+      - SYS_PTRACE
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    restart: unless-stopped

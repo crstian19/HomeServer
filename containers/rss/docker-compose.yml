@@ -1,0 +1,18 @@
+version: "2"
+services:
+  freshrss:
+    image: linuxserver/freshrss
+    container_name: freshrss
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Madrid	
+    volumes:
+      - ./config:/config
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.freshrss.entryPoints=web-secure
+      - traefik.http.routers.freshrss.rule=Host(`URL`)
+      - traefik.http.routers.freshrss.tls.certresolver=default
+      - traefik.http.services.freshrss.loadbalancer.server.port=80
+    restart: unless-stopped

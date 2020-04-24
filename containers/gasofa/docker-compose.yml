@@ -1,0 +1,31 @@
+version: '3.7'
+
+services:
+
+  gasofa:
+    image: linuxserver/clarkson
+    restart: unless-stopped
+    environment:
+      - PUID=1000
+      - PGID=100
+      - MYSQL_HOST=db
+      - MYSQL_USERNAME=DATABASE USERNAME
+      - MYSQL_PASSWORD= DATABASE PASSWORD
+      - ENABLE_REGISTRATIONS=true
+      - TZ=Europe/Madrid
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.clarkson.entryPoints=web-secure
+      - traefik.http.routers.clarkson.rule=Host(`YOUR URL`)
+      - traefik.http.routers.clarkson.tls.certresolver=default
+
+    ports:
+      - 3000:3000
+
+  db:
+    image: mariadb
+    restart: unless-stopped
+    environment:
+      - MYSQL_ROOT_PASSWORD=YOUR ROOT PW
+    volumes:
+      - ./db:/var/lib/mysql

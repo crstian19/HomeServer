@@ -1,0 +1,19 @@
+version: "2"
+services:
+  pyload:
+    image: linuxserver/pyload
+    container_name: pyload
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    volumes:
+      - ./config:/config
+      - /storage/shared:/downloads
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.pyload.entryPoints=web-secure
+      - traefik.http.routers.pyload.rule=Host(`URL`)
+      - traefik.http.routers.pyload.tls.certresolver=default
+      - traefik.http.services.pyload.loadbalancer.server.port=8000
+    restart: unless-stopped

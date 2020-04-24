@@ -1,0 +1,27 @@
+version: "3"
+services:
+  jellyfin:
+    image: linuxserver/jellyfin
+    container_name: jellyfin
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Madrid
+     # - UMASK_SET=022 #optional
+    volumes:
+      - ./config/library:/config
+      - ./config/tvseries:/data/tvshows
+      - ./config/movies:/data/movies
+      - /storage/shared/bittorrent:/downloads
+     # - /opt/vc/lib:/opt/vc/lib #optional
+   # ports:
+     # - 8096:8096
+     # - 8920:8920 #optional
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.jellyfin.entryPoints=web-secure
+      - traefik.http.routers.jellyfin.rule=Host(`yourURL)
+      - traefik.http.routers.jellyfin.tls.certresolver=default
+      - traefik.http.services.jellyfin.loadbalancer.server.port=8096
+    devices:
+      - /dev/dri:/dev/dri #optional

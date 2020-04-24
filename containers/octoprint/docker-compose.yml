@@ -1,0 +1,10 @@
+version: '3'
+services:
+  octoprint:
+    image: nunofgs/octoprint
+    volumes:
+      - '/mnt/data:/data'
+    ports:
+      - '5000:5000'
+    restart: unless-stopped
+    

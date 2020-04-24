@@ -1,0 +1,15 @@
+version: '3'
+services:
+  caddy:
+    image: abiosoft/caddy
+    volumes:
+      - '/storage/shared:/srv'
+    labels:      
+      - traefik.enable=true
+      - traefik.http.routers.caddy.entryPoints=web-secure
+      - traefik.http.routers.caddy.rule=Host(`URL`)
+      - traefik.http.routers.caddy.tls.certresolver=default
+      - traefik.http.services.caddy.loadbalancer.server.port=2015
+      - traefik.http.routers.caddy.middlewares=torrent
+      - traefik.http.middlewares.torrent.basicAuth.users=HTACCESS 
+    restart: unless-stopped

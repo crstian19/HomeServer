@@ -1,0 +1,45 @@
+version: '3.7'
+
+services:
+
+  lychee:
+    image: bigrob8181/lychee-laravel
+    restart: unless-stopped
+    environment:
+      - PUID=1000
+      - PGID=100
+      - PHP_TZ=Europe/Madrid
+      - DB_CONNECTION=pgsql
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_DATABASE=lychee
+      - DB_USERNAME=DB USER
+      - DB_PASSWORD=DB PW
+    volumes:
+      - ./conf:/conf
+      - ./uploads:/uploads
+#      - ./php.ini:/etc/php/7.3/fpm/php.ini
+    depends_on:
+      - db
+    labels:
+      - traefik.enable=true
+      - "traefik.frontend.rule=Host:YOUR URL"
+
+  db:
+    image: postgres:11-alpine
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=DB USER
+      - POSTGRES_PASSWORD=DB PW
+      - POSTGRES_DB=lychee
+    volumes:
+      - ./db:/var/lib/postgresql/data
+
+#  adminer:
+#    image: adminer
+#    restart: unless-stopped
+#    depends_on:
+#      - db
+#    labels:
+#      - traefik.enable=true
+#      - "traefik.frontend.rule=Host:DB URL"

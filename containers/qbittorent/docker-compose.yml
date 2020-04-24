@@ -1,0 +1,24 @@
+version: "2"
+services:
+  qbittorrent:
+    image: linuxserver/qbittorrent
+    container_name: qbittorrent
+    environment:
+      - PUID=1000
+      - PGID=100
+      - TZ=Europe/Madrid
+      - UMASK_SET=022
+      - WEBUI_PORT=9090
+    volumes:
+      - ./config:/config
+      - /storage/shared/bittorrent:/downloads
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.qbittorrent.entryPoints=web-secure
+      - traefik.http.routers.qbittorrent.rule=Host(`URL`)
+      - traefik.http.routers.qbittorrent.tls.certresolver=default
+      - traefik.http.services.qbittorrent.loadbalancer.server.port=9090
+    ports:
+      - 6881:6881
+      - 6881:6881/udp
+    restart: unless-stopped

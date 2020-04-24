@@ -1,0 +1,14 @@
+version: '3'
+services:
+  caddy:
+    image: abiosoft/caddy
+    volumes:
+      - '/storage/private:/srv'
+    labels:      
+      - traefik.enable=true
+      - traefik.http.routers.private-caddy.entryPoints=web-secure
+      - traefik.http.routers.private-caddy.rule=Host(`URL`)
+      - traefik.http.routers.private-caddy.tls.certresolver=default
+      - traefik.http.services.private-caddy.loadbalancer.server.port=2015
+      - traefik.frontend.auth.basic.HTACCESS
+    restart: unless-stopped

@@ -1,0 +1,14 @@
+version: '3'
+services:
+  updong:
+     image: crstian/updog
+     volumes:
+      - '/storage/private:/uploads'
+     labels:
+      - traefik.enable=true
+      - traefik.http.routers.updong.entryPoints=web-secure
+      - traefik.http.routers.updong.rule=Host(`URL`)
+      - traefik.http.routers.updong.tls.certresolver=default
+      - traefik.http.routers.updong.middlewares=updong
+      - traefik.http.middlewares.updong.basicAuth.users=AUTH
+     restart: unless-stopped
