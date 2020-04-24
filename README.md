@@ -1,6 +1,6 @@
 # My Homelab
 
-Here I post my homelab config, as OS Iḿ using [NixOS](https://nixos.org/), as reverse proxy I'm using [traefik](https://github.com/containous/traefik/)
+Here I post my homelab config, as OS I'm using [NixOS](https://nixos.org/), as reverse proxy I'm using [traefik](https://github.com/containous/traefik/)
 
 You can see all my services in my webpage below.
 
