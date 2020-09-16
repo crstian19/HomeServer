@@ -4,7 +4,7 @@
 
 title: "Homelab Services"
 subtitle: "Crstian's"
-logo: "assets//tools/nixos.png"
+logo: "assets//tools/gopher-astronaut.webp"
 # icon: "fas fa-skull-crossbones" Optional icon
 
 # Optional message
@@ -110,7 +110,7 @@ services:
         tag: "Fuel Dashboard"
         tagstyle: "is-success"
       - name: "Home Assistant"
-        logo: "assets/tools/homeassistant.svg"
+        logo: "assets/tools/HassioLogo.webp"
         subtitle: "Open source home automation"
         url: "https://home.crstian.me"
         tag: "Home"
