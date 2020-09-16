@@ -47,7 +47,7 @@ services:
         tag: "P2P"
         tagstyle: "is-success"
         url: "https://rutorrent.crstian.me/"
-        target: '_blank' # optionnal html a tag target attribute
+        target: '_blank' # optional html a tag target attribute
       - name: "Torrent Downloads"
         logo: "assets/tools/caddy.svg"
         subtitle: "Open source web server"
