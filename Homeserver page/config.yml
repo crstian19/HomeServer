@@ -153,14 +153,14 @@ services:
         tagstyle: "is-success"
         url: "ts3server://ts.crstian.me"
 
-  - name: "In progress"
-    icon: "fas fa-spinner"
-    items:
-      - name: "Octoprint"
-        logo: "assets/tools/octoprintLogo.png"
-        subtitle: "Web interface for my 3D printer"
-        tag: "3D Printer"
-#        url: "https://octoprint.crstian.me"
+ # - name: "In progress"
+ #   icon: "fas fa-spinner"
+ #   items:
+ #     - name: "Octoprint"
+ #       logo: "assets/tools/octoprintLogo.png"
+ #       subtitle: "Web interface for my 3D printer"
+ #       tag: "3D Printer"
+ #        url: "https://octoprint.crstian.me"
 
   - name: "Developing"
     icon: "far fa-file-code"
@@ -173,7 +173,7 @@ services:
         url: "https://git.crstian.me"
         target: '_blank'
       - name: "PhantomBot"
-        logo: "assets/tools/gitea.png"
+        logo: "assets/tools/phantombot.png"
         subtitle: "Open source interactive Twitch bot"
         tag: "Twitch"
         tagstyle: "is-success"
