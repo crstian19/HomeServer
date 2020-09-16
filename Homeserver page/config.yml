@@ -41,12 +41,12 @@ services:
   - name: "File Sharing"
     icon: "fas fa-share-alt"
     items:
-      - name: "qBittorrent"
-        logo: "assets/tools/qBittorrent.png"
-        subtitle: "Open Source P2P Bittorrent client"
+      - name: "Rutorrent"
+        logo: "assets/tools/rutorrent.png"
+        subtitle: "P2P Bittorrent client"
         tag: "P2P"
         tagstyle: "is-success"
-        url: "https://torrent.crstian.me/"
+        url: "https://rutorrent.crstian.me/"
         target: '_blank' # optionnal html a tag target attribute
       - name: "Torrent Downloads"
         logo: "assets/tools/caddy.svg"
@@ -69,6 +69,13 @@ services:
         target: '_blank'
         tagstyle: "is-success"
         url: "https://private.crstian.me"
+      - name: "Updog"
+        logo: "assets/tools/updog.png"
+        subtitle: "Python's SimpleHTTPServer"
+        tag: "WebServer"
+        target: '_blank'
+        tagstyle: "is-success"
+        url: "https://updog.crstian.me"
 
   - name: "Monitoring"
     icon: "fas fa-heartbeat"
@@ -78,11 +85,11 @@ services:
         subtitle: "HTTP reverse proxy and load balancer"
         tag: "Proxy"
         url: "https://traefik.crstian.me"
-     # - name: "Ouroboros"
-     #   logo: "assets/tools/ouroboros.png"
-     #   subtitle: "Automatically update Docker containers"
-     #   tag: "Update"
-     #   tagstyle: "is-success"
+      - name: "Watchtower"
+        logo: "assets/tools/watchtower.png"
+        subtitle: "Automatically update Docker containers"
+        tag: "Update"
+        tagstyle: "is-success"
 
       - name: "Netdata Server"
         logo: "assets/tools/logonetdata.png"
@@ -96,6 +103,25 @@ services:
         url: "https://linksys.crstian.me"
         tag: "Stats"
         tagstyle: "is-success"
+      - name: "Clarkson"
+        logo: "assets/tools/clarkson.png"
+        subtitle: "Web-based fuel logging dashboard"
+        url: "https://gasofa.crstian.me"
+        tag: "Fuel Dashboard"
+        tagstyle: "is-success"
+      - name: "Home Assistant"
+        logo: "assets/tools/homeassistant.svg"
+        subtitle: "Open source home automation"
+        url: "https://home.crstian.me"
+        tag: "Home"
+        tagstyle: "is-success"
+      - name: "Lychee"
+        logo: "assets/tools/google-photos.svg"
+        subtitle: "Self-hosted photo-management"
+        url: "https://photos.crstian.me"
+        tag: "Photos"
+        tagstyle: "is-success"
+
 
     #  - name: "Grafana"
     #    logo: "assets/tools/grafana.png"
@@ -135,3 +161,32 @@ services:
         subtitle: "Web interface for my 3D printer"
         tag: "3D Printer"
 #        url: "https://octoprint.crstian.me"
+
+  - name: "Developing"
+    icon: "far fa-file-code"
+    items:
+      - name: "Gitea"
+        logo: "assets/tools/gitea.png"
+        subtitle: "Git solution for my code"
+        tag: "Git"
+        tagstyle: "is-success"
+        url: "https://git.crstian.me"
+        target: '_blank'
+      - name: "PhantomBot"
+        logo: "assets/tools/gitea.png"
+        subtitle: "Open source interactive Twitch bot"
+        tag: "Twitch"
+        tagstyle: "is-success"
+        url: "https://twitch.crstian.me"
+        target: '_blank'
+  - name: Games
+    icon: "fab fa-twitch"
+    items:
+      - name: "Minecraft Server"
+        logo: "assets/tools/minecraft.png"
+        subtitle: "My own Minecraft Server"
+        tag: "Minecraft"
+        target: '_blank'
+        tagstyle: "is-success"
+
+   
