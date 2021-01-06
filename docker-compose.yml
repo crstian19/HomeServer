@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  homeserver-web:
+    image: homeserver-web
+    container_name: homeserver-web
+    restart: unless-stopped
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.homeserver-web.entryPoints=web-secure
+      - traefik.http.routers.homeserver-web.rule=Host(`server.crstian.me`)
+      - traefik.http.routers.homeserver-web.tls.certresolver=default
+
+networks:
+  default:
+    name: homeserver-web-network
