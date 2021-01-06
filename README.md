@@ -9,8 +9,8 @@ https://server.crstian.me/
 # Homelab Services Homepage
 
 
-![](https://raw.githubusercontent.com/Crstian19/HomeServer/master/Homeserver%20page/screenshot.png)
+![](https://raw.githubusercontent.com/Crstian19/HomeServer/master/web/screenshot.png
 
-![](https://raw.githubusercontent.com/Crstian19/HomeServer/master/Homeserver%20page/screenshot_2.png)
+![](https://raw.githubusercontent.com/Crstian19/HomeServer/master/web/screenshot_2.png)
 
 Based on this (https://github.com/bastienwirtz/homer)
