@@ -188,5 +188,11 @@ services:
         tag: "Minecraft"
         target: '_blank'
         tagstyle: "is-success"
+      - name: "Minecraft Server"
+        logo: "assets/tools/minecraft.png"
+        subtitle: "My own Minecraft Server"
+        tag: "Minecraft"
+        target: '_blank'
+        tagstyle: "is-success"
 
    
