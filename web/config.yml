@@ -133,7 +133,7 @@ services:
         tag: "TS3"
         tagstyle: "is-success"
         url: "ts3server://ts.crstian.me"
-            - name: "Clarkson"
+      - name: "Clarkson"
         logo: "assets/tools/clarkson.png"
         subtitle: "Web-based fuel logging dashboard"
         url: "https://gasofa.crstian.me"
@@ -179,7 +179,7 @@ services:
         url: "https://twitch.crstian.me"
         target: '_blank'
   - name: Games
-    icon: "logos:twitch"
+    icon: "fab fa-twitch"
     items:
       - name: "Minecraft Server"
         logo: "assets/tools/minecraft.png"
@@ -187,6 +187,9 @@ services:
         tag: "Minecraft"
         target: '_blank'
         tagstyle: "is-success"
+  - name: Hosting
+    icon: ""
+    items:
       - name: "Minecraft Server"
         logo: "assets/tools/minecraft.png"
         subtitle: "My own Minecraft Server"
