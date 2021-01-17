@@ -1,4 +1,6 @@
 # My Homelab
+![](https://badges.fw-web.space/uptimerobot/ratio/m786948962-754bfbf374a72af91cd47dd2?label=uptime%20last%2030%20days&logo=NixOS&logoColor=white)
+![](https://badges.fw-web.space/website?down_color=red&down_message=down&up_color=green&up_message=online&url=https%3A%2F%2Fserver.crstian.me%2F)
 
 Here I post my homelab config, as OS I'm using [NixOS](https://nixos.org/), as reverse proxy I'm using [traefik](https://github.com/containous/traefik/)
 
