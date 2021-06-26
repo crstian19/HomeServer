@@ -272,7 +272,7 @@ services:
         tagstyle: "is-success"
         url: "https://twitch.crstian.me"
   - name: Hosting
-    icon: ""
+    icon: "far fa-file-code"
     items:
       - name: "Plausible"
         logo: "https://raw.githubusercontent.com/Crstian19/homer-icons/master/png/plausible.png"
@@ -282,7 +282,7 @@ services:
         tagstyle: "is-success"
         url: https://analytics.crstian.me
   - name: Media
-    icon: ""
+    icon: "fas fa-film"
     items:
       - name: "Jellyfin"
         logo: "https://raw.githubusercontent.com/Crstian19/homer-icons/master/png/jellyfin.png"
