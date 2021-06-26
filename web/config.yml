@@ -177,12 +177,14 @@ services:
         logo: "assets/tools/freshrss.png"
         subtitle: "Self-hosted RSS feed aggregator"
         tag: "RSS"
+        target: '_blank'
         tagstyle: "is-success"
         url: "https://rss.crstian.me"
       - name: "TS3"
         logo: "assets/tools/ts3.png"
         subtitle: "ts.crstian.me"
         tag: "TS3"
+        target: '_blank'
         tagstyle: "is-success"
         url: "ts3server://ts.crstian.me"
       - name: "Hammond"
@@ -190,24 +192,28 @@ services:
         subtitle: "Web-based fuel logging dashboard"
         url: "https://gasofa.crstian.me"
         tag: "Fuel Dashboard"
+        target: '_blank'
         tagstyle: "is-success"
       - name: "Home Assistant"
         logo: "assets/tools/HassioLogo.webp"
         subtitle: "Open source home automation"
         url: "https://home.crstian.me"
         tag: "Home"
+        target: '_blank'
         tagstyle: "is-success"
       - name: "Lychee"
         logo: "assets/tools/google-photos.svg"
         subtitle: "Self-hosted photo-management"
         url: "https://photos.crstian.me"
         tag: "Photos"
+        target: '_blank'
         tagstyle: "is-success"
       - name: "Portainer"
         logo: "https://raw.githubusercontent.com/Crstian19/homer-icons/master/png/portainer.png"
         subtitle: "container management GUI"
         url: "https://portainer.crstian.me"
         tag: "Container UI"
+        target: '_blank'
         tagstyle: "is-success"
 
  # - name: "In progress"
