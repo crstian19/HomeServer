@@ -124,7 +124,7 @@ services:
         tagstyle: "is-success"
       - name: "Gotify"
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/master/png/gotify.png"
-        subtitle: "Server for sending and receiving messages"
+        subtitle: "Server for sending messages"
         url: "https://gotify.crstian.me/"
         tag: "Notifications"
         tagstyle: "is-success"
