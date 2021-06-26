@@ -226,12 +226,13 @@ services:
   - name: Hosting
     icon: ""
     items:
-      - name: "Minecraft Server"
-        logo: "assets/tools/minecraft.png"
-        subtitle: "My own Minecraft Server"
-        tag: "Minecraft"
+      - name: "Plausible"
+        logo: "https://raw.githubusercontent.com/Crstian19/homer-icons/master/png/plausible.png"
+        subtitle: "Alternative to Google Analytics"
+        tag: "Analytics"
         target: '_blank'
         tagstyle: "is-success"
+        url: https://analytics.crstian.me
   - name: Media
     icon: ""
     items:
