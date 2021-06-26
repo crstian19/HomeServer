@@ -197,7 +197,7 @@ services:
       - name: "Home Assistant"
         logo: "assets/tools/HassioLogo.webp"
         subtitle: "Open source home automation"
-        url: "https://home.crstian.me"
+        url: "https://homeassistant.crstian.me"
         tag: "Home"
         target: '_blank'
         tagstyle: "is-success"
