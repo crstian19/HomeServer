@@ -128,7 +128,12 @@ services:
         url: "https://gotify.crstian.me/"
         tag: "Notifications"
         tagstyle: "is-success"
-
+      - name: "Loki"
+        logo: "https://raw.githubusercontent.com/Crstian19/homer-icons/master/png/loki.png"
+        subtitle: "Log system"
+        url: "http://server.lan:3100/"
+        tag: "Logs"
+        tagstyle: "is-success"
     #  - name: "Grafana"
     #    logo: "assets/tools/grafana.png"
     #    subtitle: "Metric analytics & dashboards"
