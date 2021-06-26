@@ -217,6 +217,12 @@ services:
         tag: "Minecraft"
         target: '_blank'
         tagstyle: "is-success"
+      - name: "PhantomBot"
+        logo: "assets/tools/phantombot.png"
+        subtitle: "Open source interactive Twitch bot"
+        tag: "Twitch"
+        tagstyle: "is-success"
+        url: "https://twitch.crstian.me"
   - name: Hosting
     icon: ""
     items:
