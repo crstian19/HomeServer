@@ -201,6 +201,13 @@ services:
         target: '_blank'
         tagstyle: "is-success"
         url: "https://drone.crstian.me"
+      - name: "Code Sever"
+        logo: "https://raw.githubusercontent.com/Crstian19/homer-icons/master/png/code.png"
+        subtitle: " VS Code in the browser "
+        tag: "Coding"
+        target: '_blank'
+        tagstyle: "is-success"
+        url: "https://codeserver.crstian.me"
   - name: Games
     icon: "fab fa-twitch"
     items:
