@@ -156,7 +156,7 @@ services:
         tag: "TS3"
         tagstyle: "is-success"
         url: "ts3server://ts.crstian.me"
-      - name: "Clarkson"
+      - name: "Hammond"
         logo: "assets/tools/clarkson.png"
         subtitle: "Web-based fuel logging dashboard"
         url: "https://gasofa.crstian.me"
