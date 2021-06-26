@@ -55,13 +55,13 @@ services:
         target: '_blank'
         tagstyle: "is-success"
         url: "https://downloads.crstian.me"
-      - name: "Pyload"
-        logo: "assets/tools/pyload.png"
-        subtitle: "Open Source download manager"
-        tag: "Python"
-        tagstyle: "is-success"
-        url: "https://pyload.crstian.me"
-        target: '_blank'
+ #     - name: "Pyload"
+ #       logo: "assets/tools/pyload.png"
+ #       subtitle: "Open Source download manager"
+ #       tag: "Python"
+ #       tagstyle: "is-success"
+ #       url: "https://pyload.crstian.me"
+ #       target: '_blank'
       - name: "Private Downloads"
         logo: "assets/tools/caddy.svg"
         subtitle: "Open source web server"
@@ -69,6 +69,13 @@ services:
         target: '_blank'
         tagstyle: "is-success"
         url: "https://private.crstian.me"
+      - name: "Public Downloads"
+        logo: "assets/tools/caddy.svg"
+        subtitle: "Open source web server"
+        tag: "WebServer"
+        target: '_blank'
+        tagstyle: "is-success"
+        url: "https://public.crstian.me"
       - name: "Updog"
         logo: "assets/tools/updog.png"
         subtitle: "Python's SimpleHTTPServer"
