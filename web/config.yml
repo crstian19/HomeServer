@@ -162,6 +162,13 @@ services:
         tag: "Latency"
         target: '_blank'
         tagstyle: "is-success"
+      - name: "Speedtester"
+        logo: "https://raw.githubusercontent.com/Crstian19/homer-icons/master/png/prtg.png"
+        subtitle: "Speed tester tracker"
+        url: "https://speedtest.crstian.me/"
+        tag: "Speedtester"
+        target: '_blank'
+        tagstyle: "is-success"
 
   - name: "Information"
     icon: "fas fa-rocket"
