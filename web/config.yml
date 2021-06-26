@@ -215,7 +215,7 @@ services:
         tag: "Container UI"
         target: '_blank'
         tagstyle: "is-success"
-      - name: "Adguardhome"
+      - name: "AdGuard home"
         logo: "https://raw.githubusercontent.com/Crstian19/homer-icons/e1bc99e079270cdd3b57b9b6080242f329e6c504/svg/adguardhome.svg"
         subtitle: "Adblocker"
         url: "http://linksys.lan:90"
