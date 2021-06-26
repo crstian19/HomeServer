@@ -256,6 +256,16 @@ services:
         target: '_blank'
         tagstyle: "is-success"
         url: "https://codeserver.crstian.me"
+  - name: Media
+    icon: "fas fa-film"
+    items:
+      - name: "Jellyfin"
+        logo: "https://raw.githubusercontent.com/Crstian19/homer-icons/master/png/jellyfin.png"
+        subtitle: "Media server"
+        tag: "Media server"
+        target: '_blank'
+        tagstyle: "is-success"
+        url: "https://jellyfin.crstian.me"
   - name: Games
     icon: "fab fa-twitch"
     items:
@@ -271,6 +281,7 @@ services:
         tag: "Twitch"
         tagstyle: "is-success"
         url: "https://twitch.crstian.me"
+
   - name: Hosting
     icon: "far fa-file-code"
     items:
@@ -281,14 +292,5 @@ services:
         target: '_blank'
         tagstyle: "is-success"
         url: https://analytics.crstian.me
-  - name: Media
-    icon: "fas fa-film"
-    items:
-      - name: "Jellyfin"
-        logo: "https://raw.githubusercontent.com/Crstian19/homer-icons/master/png/jellyfin.png"
-        subtitle: "Media server"
-        tag: "Media server"
-        target: '_blank'
-        tagstyle: "is-success"
-        url: "https://jellyfin.crstian.me"
+
    
