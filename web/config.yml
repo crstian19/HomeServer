@@ -194,13 +194,13 @@ services:
         tagstyle: "is-success"
         url: "https://git.crstian.me"
         target: '_blank'
-      - name: "PhantomBot"
-        logo: "assets/tools/phantombot.png"
-        subtitle: "Open source interactive Twitch bot"
-        tag: "Twitch"
-        tagstyle: "is-success"
-        url: "https://twitch.crstian.me"
+      - name: "Drone"
+        logo: "assets/tools/drone.png"
+        subtitle: "Self-service Continuous Delivery platform"
+        tag: "CI/CD"
         target: '_blank'
+        tagstyle: "is-success"
+        url: "https://drone.crstian.me"
   - name: Games
     icon: "fab fa-twitch"
     items:
