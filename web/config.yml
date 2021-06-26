@@ -159,7 +159,7 @@ services:
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/master/png/netbox.png"
         subtitle: "Network latency tracker"
         url: "https://smokeping.crstian.me/"
-        tag: "latency"
+        tag: "Latency"
         target: '_blank'
         tagstyle: "is-success"
 
