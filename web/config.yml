@@ -155,6 +155,13 @@ services:
         tag: "S.M.A.R.T"
         target: '_blank'
         tagstyle: "is-success"
+      - name: "Smokeping"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/master/png/netbox.png"
+        subtitle: "Network latency tracker"
+        url: "https://smokeping.crstian.me/"
+        tag: "latency"
+        target: '_blank'
+        tagstyle: "is-success"
 
   - name: "Information"
     icon: "fas fa-rocket"
