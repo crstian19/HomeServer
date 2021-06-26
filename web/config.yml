@@ -134,6 +134,12 @@ services:
         url: "http://server.lan:3100/"
         tag: "Logs"
         tagstyle: "is-success"
+      - name: "Glances"
+        logo: "https://raw.githubusercontent.com/Crstian19/homer-icons/master/png/glances.png"
+        subtitle: "Real time monitoring system"
+        url: "https://glances.crstian.me/"
+        tag: "Monitoring"
+        tagstyle: "is-success"
 
   - name: "Information"
     icon: "fas fa-rocket"
