@@ -42,7 +42,7 @@ services:
     icon: "fas fa-share-alt"
     items:
       - name: "Rutorrent"
-        logo: "assets/tools/rutorrent.png"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/master/png/rutorrent.png"
         subtitle: "P2P Bittorrent client"
         tag: "P2P"
         tagstyle: "is-success"
