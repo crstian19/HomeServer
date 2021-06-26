@@ -232,5 +232,13 @@ services:
         tag: "Minecraft"
         target: '_blank'
         tagstyle: "is-success"
-
+  - name: Media
+    icon: ""
+    items:
+      - name: "Jellyfin"
+        logo: "https://raw.githubusercontent.com/Crstian19/homer-icons/master/png/jellyfin.png"
+        subtitle: "Media server"
+        tag: "Media server"
+        target: '_blank'
+        tagstyle: "is-success"
    
