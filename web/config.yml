@@ -116,6 +116,12 @@ services:
         url: "https://grafana.crstian.me/"
         tag: "Dashboard"
         tagstyle: "is-success"
+      - name: "Prometheus"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/master/png/prometheus.png"
+        subtitle: "Event monitoring and alerting"
+        url: "http://server.lan:9090"
+        tag: "Dashboard"
+        tagstyle: "is-success"
 
     #  - name: "Grafana"
     #    logo: "assets/tools/grafana.png"
