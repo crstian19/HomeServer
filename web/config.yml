@@ -105,7 +105,7 @@ services:
         tag: "Stats"
         tagstyle: "is-success"
       - name: "Netdata Router Linksys"
-        logo: "assets/tools/logonetdata.png"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/master/png/router.png"
         subtitle: "Real-time and health monitoring"
         url: "https://linksys.crstian.me"
         tag: "Stats"
