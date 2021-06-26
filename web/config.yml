@@ -130,7 +130,7 @@ services:
         tagstyle: "is-success"
       - name: "Loki"
         logo: "https://raw.githubusercontent.com/Crstian19/homer-icons/master/png/loki.png"
-        subtitle: "Log system"
+        subtitle: "Logs system"
         url: "http://server.lan:3100/"
         tag: "Logs"
         tagstyle: "is-success"
