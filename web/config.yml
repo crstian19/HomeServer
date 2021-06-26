@@ -140,6 +140,12 @@ services:
         url: "https://glances.crstian.me/"
         tag: "Monitoring"
         tagstyle: "is-success"
+      - name: "Scrutiny"
+        logo: "https://raw.githubusercontent.com/Crstian19/homer-icons/master/png/scrutiny.png"
+        subtitle: "S.M.A.R.T monitoring"
+        url: "https://scrutiny.crstian.me/"
+        tag: "S.M.A.R.T"
+        tagstyle: "is-success"
 
   - name: "Information"
     icon: "fas fa-rocket"
