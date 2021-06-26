@@ -122,6 +122,12 @@ services:
         url: "http://server.lan:9090"
         tag: "Dashboard"
         tagstyle: "is-success"
+      - name: "Gotify"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/master/png/gotify.png"
+        subtitle: "Server for sending and receiving messages"
+        url: "https://gotify.crstian.me/"
+        tag: "Notifications"
+        tagstyle: "is-success"
 
     #  - name: "Grafana"
     #    logo: "assets/tools/grafana.png"
