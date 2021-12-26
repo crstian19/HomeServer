@@ -41,12 +41,12 @@ services:
   - name: "File Sharing"
     icon: "fas fa-share-alt"
     items:
-      - name: "Rutorrent"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/master/png/rutorrent.png"
-        subtitle: "P2P Bittorrent client"
+      - name: "Flood"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/master/png/flood.png"
+        subtitle: "Beautiful WebUI for torrent clients"
         tag: "P2P"
         tagstyle: "is-success"
-        url: "https://rutorrent.crstian.me/"
+        url: "https://flood.crstian.me/"
         target: '_blank' # optional html a tag target attribute
       - name: "Torrent Downloads"
         logo: "assets/tools/caddy.svg"
