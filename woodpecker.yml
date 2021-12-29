@@ -1,0 +1,17 @@
+kind: pipeline
+type: exec
+name: default
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+- name: build
+  commands:
+    - docker build -t homeserver-web .
+
+- name: run
+  commands:
+    - docker-compose down -v
+    - docker-compose up -d --build
