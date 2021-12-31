@@ -170,8 +170,8 @@ services:
         target: '_blank'
         tagstyle: "is-success"
 
-  - name: "Information"
-    icon: "fas fa-rocket"
+  - name: "Tools"
+    icon: "fas fa-tools"
     items:
       - name: "FreshRSS"
         logo: "assets/tools/freshrss.png"
@@ -204,13 +204,13 @@ services:
       - name: "Lychee"
         logo: "assets/tools/google-photos.svg"
         subtitle: "Self-hosted photo-management"
-        url: "https://photos.crstian.me"
+        url: "https://lychee.crstian.me"
         tag: "Photos"
         target: '_blank'
         tagstyle: "is-success"
       - name: "Portainer"
         logo: "https://raw.githubusercontent.com/Crstian19/homer-icons/master/png/portainer.png"
-        subtitle: "container management GUI"
+        subtitle: "Container management GUI"
         url: "https://portainer.crstian.me"
         tag: "Container UI"
         target: '_blank'
