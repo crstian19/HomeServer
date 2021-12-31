@@ -188,7 +188,7 @@ services:
         tagstyle: "is-success"
         url: "ts3server://ts.crstian.me"
       - name: "Bitwarden"
-        logo: "https://github.com/NX211/homer-icons/blob/master/png/bitwarden.png?raw=true"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/master/png/bitwarden.png"
         subtitle: "https://bitwarden.crstian.me"
         tag: "Bitwarden"
         target: '_blank'
@@ -201,8 +201,15 @@ services:
         tag: "Fuel Dashboard"
         target: '_blank'
         tagstyle: "is-success"
-      - name: "Home Assistant"
+      - name: "Changedetection"
         logo: "assets/tools/HassioLogo.webp"
+        subtitle: "Change Monitoring of Web Pages"
+        url: "https://changedetection.crstian.me/"
+        tag: "Changedetection"
+        target: '_blank'
+        tagstyle: "is-success"
+      - name: "Home Assistant"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/master/png/requestrr.png"
         subtitle: "Open source home automation"
         url: "https://homeassistant.crstian.me"
         tag: "Home"
