@@ -187,6 +187,13 @@ services:
         target: '_blank'
         tagstyle: "is-success"
         url: "ts3server://ts.crstian.me"
+      - name: "Bitwarden"
+        logo: "https://github.com/NX211/homer-icons/blob/master/png/bitwarden.png?raw=true"
+        subtitle: "https://bitwarden.crstian.me"
+        tag: "Bitwarden"
+        target: '_blank'
+        tagstyle: "is-success"
+        url: "ts3server://ts.crstian.me"
       - name: "Hammond"
         logo: "assets/tools/clarkson.png"
         subtitle: "Web-based fuel logging dashboard"
