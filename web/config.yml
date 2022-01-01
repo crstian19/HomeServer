@@ -202,14 +202,14 @@ services:
         target: '_blank'
         tagstyle: "is-success"
       - name: "Changedetection"
-        logo: "assets/tools/HassioLogo.webp"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/master/png/requestrr.png"
         subtitle: "Change Monitoring of Web Pages"
         url: "https://changedetection.crstian.me/"
         tag: "Changedetection"
         target: '_blank'
         tagstyle: "is-success"
       - name: "Home Assistant"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/master/png/requestrr.png"
+        logo: "assets/tools/HassioLogo.webp"
         subtitle: "Open source home automation"
         url: "https://homeassistant.crstian.me"
         tag: "Home"
@@ -280,6 +280,13 @@ services:
         target: '_blank'
         tagstyle: "is-success"
         url: "https://jellyfin.crstian.me"
+      - name: "Flox"
+        logo: "https://raw.githubusercontent.com/devfake/flox/master/public/assets/img/logo.png"
+        subtitle: "Watch List service"
+        tag: "Media server"
+        target: '_blank'
+        tagstyle: "is-success"
+        url: "https://flox.crstian.me"
   - name: Games
     icon: "fab fa-twitch"
     items:
