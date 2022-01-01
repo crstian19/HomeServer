@@ -287,8 +287,15 @@ services:
         target: '_blank'
         tagstyle: "is-success"
         url: "https://flox.crstian.me"
+      - name: "Prowlarr"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/master/svg/prowlarr.svg"
+        subtitle: "Indexers manager"
+        tag: "Prowlarr"
+        target: '_blank'
+        tagstyle: "is-success"
+        url: "https://prowlarr.crstian.me"
       - name: "Sonarr"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/master/png/sonarr.png"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/master/svg/sonarr.svg"
         subtitle: "TV show collection manager"
         tag: "Sonarr"
         target: '_blank'
