@@ -169,6 +169,13 @@ services:
         tag: "Speedtester"
         target: '_blank'
         tagstyle: "is-success"
+      - name: "Uptime Kuma"
+        logo: "https://raw.githubusercontent.com/louislam/uptime-kuma/master/public/icon.svg"
+        subtitle: "Monitoring too"
+        url: "https://status.crstian.me/"
+        tag: "Uptime"
+        target: '_blank'
+        tagstyle: "is-success"
 
   - name: "Tools"
     icon: "fas fa-tools"
