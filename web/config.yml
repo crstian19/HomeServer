@@ -189,11 +189,11 @@ services:
         url: "ts3server://ts.crstian.me"
       - name: "Bitwarden"
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/master/png/bitwarden.png"
-        subtitle: "https://bitwarden.crstian.me"
+        subtitle: "Password Manager"
         tag: "Bitwarden"
         target: '_blank'
         tagstyle: "is-success"
-        url: "ts3server://ts.crstian.me"
+        url: "https://bitwarden.crstian.me"
       - name: "Hammond"
         logo: "assets/tools/clarkson.png"
         subtitle: "Web-based fuel logging dashboard"
@@ -270,6 +270,13 @@ services:
         target: '_blank'
         tagstyle: "is-success"
         url: "https://codeserver.crstian.me"
+      - name: "Wakapi"
+        logo: "https://raw.githubusercontent.com/muety/wakapi/master/static/assets/images/logo.svg"
+        subtitle: "Coding statistics"
+        tag: "Coding"
+        target: '_blank'
+        tagstyle: "is-success"
+        url: "https://wakapi.crstian.me"
   - name: Media
     icon: "fas fa-film"
     items:
@@ -308,6 +315,13 @@ services:
         target: '_blank'
         tagstyle: "is-success"
         url: "https://radarr.crstian.me"
+      - name: "Bazarr"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/master/png/bazarr.png"
+        subtitle: "Subtitles collection manager"
+        tag: "Bazarr"
+        target: '_blank'
+        tagstyle: "is-success"
+        url: "https://bazarr.crstian.me"
   - name: Games
     icon: "fab fa-twitch"
     items:
@@ -324,15 +338,15 @@ services:
         tagstyle: "is-success"
         url: "https://twitch.crstian.me"
 
-  - name: Hosting
-    icon: "far fa-file-code"
-    items:
-      - name: "Plausible"
-        logo: "https://raw.githubusercontent.com/Crstian19/homer-icons/master/png/plausible.png"
-        subtitle: "Alternative to Google Analytics"
-        tag: "Analytics"
-        target: '_blank'
-        tagstyle: "is-success"
-        url: https://analytics.crstian.me
+#  - name: Hosting
+#    icon: "far fa-file-code"
+#    items:
+#      - name: "Plausible"
+#        logo: "https://raw.githubusercontent.com/Crstian19/homer-icons/master/png/plausible.png"
+#        subtitle: "Alternative to Google Analytics"
+#        tag: "Analytics"
+#        target: '_blank'
+#        tagstyle: "is-success"
+#        url: https://analytics.crstian.me
 
    
